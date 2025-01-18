@@ -24,6 +24,33 @@
     font-weight: 400;
     font-style: normal;
   }
+  /* Shared styles */
+  .display-flex{
+    display: flex;
+    
+  }
+  /* header styles */
+  /* Navbar related styles */
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin:60px 65px 140px 90px;
+  }
+  
+  .brand-title{
+
+  }
+  .nav-links{
+    list-style: none;
+    
+  }
+  .nav-link{
+    text-decoration: none;
+    
+  }
+  .nav-item{
+
+  }
   
 
   
