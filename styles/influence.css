@@ -34,14 +34,15 @@
   .navbar{
     justify-content: space-between;
     align-items: center;
-    margin:60px 65px 140px 90px;
+    margin: 50px 70px;
+    
   }
   
   .brand-title{
 
   }
   .nav-links{
-    list-style: none;
+    
     
   }
   .nav-link{
@@ -49,7 +50,8 @@
     
   }
   .nav-item{
-
+    list-style: none;
+    margin-right: 30px;
   }
   
 
