@@ -219,12 +219,46 @@ max-width: 100%;
   padding: 10px 24px;
   border: none;
 }
+/* Footer related styles */
+.footer{
+background-color: #0A0826;
+padding: 61px 589px 39px 589px;
+box-sizing: border-box;
+margin-top: 50px;
+
+
+}
+.influence-container{
+  
+}
+.footer-influence{
+
+}
+.footer-title{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.footer-description{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #D9DBE1;
+  text-align: center;
+}
+.footer-image{
+color: #FFFFFF;
+justify-content:space-evenly;
+
+}
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
  .navbar,
  .nav-links,
- .banner{
+ .banner,{
   
     flex-direction:column;
 }   
@@ -260,17 +294,15 @@ max-width: 100%;
   flex-direction: column;
  
   text-align: center;
-
-  
-  
-  
 }
 .featured-image{
 
 }
 .featured-product-info{
  max-width: 100%;
- 
+}
+.footer{
+  flex-direction: column;
 }
 
 
