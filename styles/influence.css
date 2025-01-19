@@ -52,6 +52,7 @@
     border: none;
     padding: 10px 38px;
 }
+
   
   .brand-title{
     font-family: "Poppins", serif;
@@ -117,7 +118,7 @@
 .Collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 30px;
     max-width: 1500px;
     margin: 60px 140px;
 }
@@ -134,9 +135,10 @@
 }
 .Collection-item{
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-gap: 30px;
+gap: 20px;
 padding: 12px 10px;
-justify-items: center;
+border-radius: 5px;
+
 }
 .title{
     font-family: "Poppins", serif;
@@ -148,13 +150,28 @@ justify-items: center;
     font-family: "Inter", serif;
     font-weight:400 ;
     font-size: 1.5rem;
-    color: #rgba(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 .collection-info{
     font-family: "Inter", serif;
     font-weight: 700;
     font-size: 0.875rem;
     color: #787885;
+}
+.star{
+  color: #FB8200;
+  width: 0.000001px;
+}
+.explore-option{
+  
+}
+.more{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: rgba(224, 44, 109, 0.87);
+  text-align: right;
+  margin-right:142px;
 }
 
 /* Responsive Media Query */
