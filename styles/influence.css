@@ -225,6 +225,8 @@ background-color: #0A0826;
 padding: 61px 589px 39px 589px;
 box-sizing: border-box;
 margin-top: 50px;
+width: 100%;
+flex-wrap: wrap;
 
 
 }
@@ -258,7 +260,7 @@ justify-content:space-evenly;
 @media screen and (max-width: 576px) {
  .navbar,
  .nav-links,
- .banner,{
+ .banner{
   
     flex-direction:column;
 }   
@@ -270,11 +272,11 @@ justify-content:space-evenly;
  }
 
  .sponsor-companies{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    gap: 15px;
-    padding-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 15px;
+  padding-right: 50px;
  }
  .logo-image{
    width: 100%;
@@ -302,7 +304,14 @@ justify-content:space-evenly;
  max-width: 100%;
 }
 .footer{
-  flex-direction: column;
+  width:calc(100% - 10px);
+  padding: 5px;
+
+
+  
+}
+.influence-container{
+  
 }
 
 
